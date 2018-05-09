@@ -30,10 +30,12 @@ public class Behaviours : MonoBehaviour {
             switch (colorName)
             {
                 case "blue":
+                case "azure":
                     g.GetComponent<Renderer>().material.color = Color.blue;
                     break;
 
                 case "red":
+                case "read":
                     g.GetComponent<Renderer>().material.color = Color.red;
                     break;
 
@@ -52,6 +54,17 @@ public class Behaviours : MonoBehaviour {
                 case "black":
                     g.GetComponent<Renderer>().material.color = Color.black;
                     break;
+
+                case "purple":
+                case "magenta":
+                    g.GetComponent<Renderer>().material.color = Color.magenta;
+                    break;
+
+                case "gray":
+                case "grey":
+                    g.GetComponent<Renderer>().material.color = Color.gray;
+                    break;
+
             }
 
         }
@@ -84,14 +97,18 @@ public class Behaviours : MonoBehaviour {
         switch (name)
         {
             case "sphere":
+            case "ball":
                 targetAsGO = sphere;
                 break;
 
             case "cylinder":
+            case "pipe":
+            case "tube":
                 targetAsGO = cylinder;
                 break;
 
             case "cube":
+            case "block":
                 targetAsGO = cube;
                 break;
 

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR_LUIS", "MR_LUIS.csproj", "{B3B72CEB-FA69-FE2B-35AA-07B46BD7C333}"
 EndProject
 Global

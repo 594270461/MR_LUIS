@@ -37,6 +37,9 @@ bld/
 **/[Ll]ibrary/*
 **/[Tt]emp/
 
+# Ignore Builds folder for Unity targets
+**/[Bb]uild*/**
+
 # Ignore UWP folder for projects that target this
 **/[Uu]WP/*
 
